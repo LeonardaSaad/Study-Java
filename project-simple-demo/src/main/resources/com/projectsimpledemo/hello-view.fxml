@@ -1,0 +1,42 @@
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.layout.BorderPane?>
+
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Button?>
+<BorderPane fx:id="borderpane" xmlns:fx="http://javafx.com/fxml" fx:controller="com.projectsimpledemo.HelloController"
+            styleClass="body">
+    <top>
+        <HBox fx:id="topSection" styleClass="top-section">
+            <Label text="Morse Conversor" styleClass="top-title"/>
+        </HBox>
+    </top>
+
+    <center>
+        <HBox fx:id="centerSection" styleClass="center-section">
+
+            <VBox fx:id="inputTextSection" styleClass="input-text-section">
+                <Label text="Text:" />
+                <TextArea fx:id="inputNormalText" styleClass="inputText" promptText="Enter your text here"/>
+                <Button fx:id="buttomConversor" text="Convert" onAction="#onHelloButtonClick"
+                        styleClass="button-convert"/>
+            </VBox>
+
+            <VBox fx:id="outputTextSection" styleClass="output-section">
+                <Label text="Converted Text"/>
+                <TextArea fx:id="inputconvertedText" promptText="Converted text here"/>
+            </VBox>
+
+        </HBox>
+    </center>
+
+    <bottom>
+        <HBox fx:id="bottomSection" styleClass="bottom-section">
+            <Label text="&#64;LeonardaSaad"/>
+        </HBox>
+    </bottom>
+</BorderPane>
