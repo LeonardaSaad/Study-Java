@@ -1,0 +1,28 @@
+* {
+  -fx-font-family: "JetBrains Mono", monospace;
+  -fx-font-size: 1.2em;
+}
+
+.top-section, .center-section, .bottom-section {
+  -fx-padding: 5pt 10pt 5pt 10pt;
+}
+
+.top-section {
+  -fx-background-color: #1A1D1A;
+  -fx-text-fill: #fff;
+  -fx-font-weight: bold;
+  -fx-alignment: center;
+}
+
+.top-title {
+  -fx-text-fill: #f1faee;
+}
+
+.center-section {
+  -fx-spacing: 10pt;
+}
+.button-convert {
+  -fx-pref-width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */

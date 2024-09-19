@@ -1,0 +1,42 @@
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+
+$theme-dark-cl-bg-1: #1A1423;
+$theme-dark-cl-bg: #1A1D1A;
+$theme-light-cl-white: #f1faee;
+
+$cl-red: #f63946;
+$cl-blue-light: #a8dadc;
+$cl-blue-middle: #457b9d;
+$cl-blue-dark: #1d3557;
+
+* {
+  -fx-font-family: "JetBrains Mono", monospace;
+  -fx-font-size: 1.2em;
+}
+
+.top-section, .center-section, .bottom-section {
+  -fx-padding: 5pt 10pt 5pt 10pt;
+}
+
+.top-section {
+  -fx-background-color: $theme-dark-cl-bg;
+  -fx-text-fill: #fff;
+  -fx-font-weight: bold;
+  -fx-alignment: center;
+}
+
+.top-title{
+  -fx-text-fill: $theme-light-cl-white;
+}
+
+.center-section {
+  -fx-spacing: 10pt;
+  .input-text-section {
+
+  }
+}
+
+.button-convert {
+  -fx-pref-width: 100%;
+}
